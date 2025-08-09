@@ -1,3 +1,4 @@
+# ------------------------------------------------------------
 """
 modern_photo_editor_with_undo.py
 Requirements:
@@ -10,7 +11,7 @@ Features:
 - Brightness / Contrast / Color (saturation) sliders
 - Undo (revert to previous state) using a history stack
 """
-
+# ------------------------------------------------------------
 import customtkinter as ctk
 from tkinter import filedialog, messagebox
 from PIL import Image, ImageTk, ImageEnhance, ImageFilter
